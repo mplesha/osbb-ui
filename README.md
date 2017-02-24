@@ -58,3 +58,20 @@ angular2-webpack-starter/
 **BUILD_PATH** (if not defined will use value '../resources/public')
 
 **API_SERVER** (if not defined will use value '/myobb')
+
+
+## Lv-219.NodeJS
+
+Bohdan Muranets'
+
+Bohdan Yuzyfyshyn
+
+Ihor Kokotko
+
+Ivanna Savchuk
+
+Roman Stadnyk
+
+Stanislav Kostin
+
+Volodymyr Nadolskyi
