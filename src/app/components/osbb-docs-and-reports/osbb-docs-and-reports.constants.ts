@@ -1,5 +1,5 @@
 import { Injectable } from '@angular/core';
-import { API_URL } from '../../../assets/models/localhost.config';
+import { API_URL } from '../../models/localhost.config';
 
 @Injectable()
 export class OsbbDocumentsAndReportsConstants {

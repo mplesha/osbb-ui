@@ -10,7 +10,7 @@ import { ProviderComponent } from '../components/provider';
 import { ApartmentComponent } from '../components/apartment';
 import { CalendarComponent } from '../components/calendar';
 import { SubTicketComponent } from '../components/ticket/components/subticket';
-import { LogedInGuard } from '../../assets/services/loged-in-guard.service';
+import { LogedInGuard } from '../services/loged-in-guard.service';
 
 export const AdminRoutes: Routes = [
   { path: 'admin',  component: AdminComponent,

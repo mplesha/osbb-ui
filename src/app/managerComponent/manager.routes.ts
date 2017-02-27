@@ -12,7 +12,7 @@ import { CalendarComponent } from '../components/calendar';
 import { SubTicketComponent } from '../components/ticket/components/subticket';
 import { OsbbDocumentsAndReportsComponent } from '../components/osbb-docs-and-reports';
 import { OsbbContactsComponent } from '../components/osbb-contacts';
-import { LogedInGuard } from '../../assets/services/loged-in-guard.service';
+import { LogedInGuard } from '../services/loged-in-guard.service';
 
 export const ManagerRoutes: Routes = [
   { path: 'manager',  component: ManagerComponent,

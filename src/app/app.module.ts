@@ -75,13 +75,13 @@ import { UserComponent } from './userComponent/user.component';
 import { ManagerComponent } from './managerComponent/manager.component';
 
 // pipes
-import { CapitalizeFirstLetterPipe } from '../assets/pipes/capitalize-first-letter';
-import { CapitalizeLetterPipe } from '../assets/pipes/capitalize.firstletter';
+import { CapitalizeFirstLetterPipe } from './pipes/capitalize-first-letter';
+import { CapitalizeLetterPipe } from './pipes/capitalize.firstletter';
 // services
-import { OsbbService } from '../assets/services/osbb.service';
-import { OsbbConstants } from '../assets/services/osbb.constants';
+import { OsbbService } from './services/osbb.service';
+import { OsbbConstants } from './services/osbb.constants';
 import { LoginService } from './shared/login/login.service';
-import { LogedInGuard } from '../assets/services/loged-in-guard.service';
+import { LogedInGuard } from './services/loged-in-guard.service';
 // Application wide providers
 
 const APP_PROVIDERS = [

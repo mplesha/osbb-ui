@@ -1,4 +1,4 @@
-import { API_URL } from '../../../assets/models/localhost.config';
+import { API_URL } from '../../models/localhost.config';
 export class LoginConstants {
   public static get Login(){
     return {
