@@ -8,7 +8,7 @@ import 'rxjs/add/operator/catch';
 
 import { Osbb } from '../models/osbb.model';
 import { OsbbDTO } from '../models/osbb-dto.model';
-import { LoginService } from '../../app/shared/login/login.service';
+import { LoginService } from '../shared/login/login.service';
 import { Attachment } from '../models/attachment.model';
 import { OsbbConstants } from './osbb.constants';
 

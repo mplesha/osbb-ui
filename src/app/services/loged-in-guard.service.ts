@@ -1,6 +1,6 @@
 import { Injectable } from '@angular/core';
 import { CanActivate, ActivatedRouteSnapshot, Router } from '@angular/router';
-import { LoginService } from '../../app/shared/login/login.service';
+import { LoginService } from '../shared/login/login.service';
 
 @Injectable()
 export class LogedInGuard implements CanActivate {

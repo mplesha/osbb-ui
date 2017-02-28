@@ -15,7 +15,7 @@ import { BillDTO } from '../../models/bill.dto.model';
 import { SubBill } from '../../models/sub.bill.model';
 
 @Component({
-  selector: 'osbb',
+  selector: 'osbbBills',
   styleUrls: [
     '../../../assets/style/page.layout.scss',
     './osbbBils.style.scss'
