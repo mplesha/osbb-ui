@@ -1,5 +1,5 @@
-# OSBB WebUI partial
-This is UI partial of https://github.com/ViktoriyaRyazhska/myosbb
+# OSBB WebUI part
+This is UI part of https://github.com/ViktoriyaRyazhska/myosbb
 
 This partial based on Angular2 Webpack Starter https://github.com/AngularClass/angular2-webpack-starter
 
