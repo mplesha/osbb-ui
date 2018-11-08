@@ -68,7 +68,7 @@ export class RegistrationComponent implements OnInit {
               private toasterService: ToasterService,
               private addressServise: AddressService) {
     this.newUser.password = '';
-    this.newUser.activated = true;
+    this.newUser.activated = false;
     this.newOsbb.creationDate = new Date();
     this.newUser.status = this.options[0];
     this.itemHouse = new SelectItem();

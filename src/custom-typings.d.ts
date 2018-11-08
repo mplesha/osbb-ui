@@ -69,8 +69,8 @@ interface SystemJS {
 interface GlobalEnvironment {
   ENV: string;
   HMR: boolean;
-  SystemJS: SystemJS;
   API_SERVER: string;
+  SystemJS: SystemJS;
   System: SystemJS;
 }
 

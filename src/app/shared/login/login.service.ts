@@ -97,6 +97,9 @@ export class LoginService {
   public setUser() {
     this.sendToken().subscribe( (data) => this.currentUser = data.json());
   }
+  public setEditUser(user: User) {
+    this.currentUser = user;
+  }
 
   public getUser(): User {
     return this.currentUser;
@@ -121,8 +124,5 @@ export class LoginService {
       this.setRole();
       this.setUser();
     }
-  }
-  public setEditUser(user: User) {
-    this.currentUser = user;
   }
 }

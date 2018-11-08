@@ -28,7 +28,7 @@ const HMR = helpers.hasProcessFlag('hot');
 const AOT = helpers.hasNpmFlag('aot');
 const METADATA = {
   title: 'Наш Двір',
-  baseUrl: process.env.BASE_URL || '/myosbb/',
+  baseUrl: process.env.BASE_URL || '/',
   isDevServer: helpers.isWebpackDevServer()
 };
 
@@ -207,7 +207,7 @@ module.exports = function (options) {
 
 
       new AssetsPlugin({
-        path: helpers.root(process.env.BUILD_PATH || '../resources/public'),
+        path: helpers.root('dist'),
         filename: 'webpack-assets.json',
         prettyPrint: true
       }),

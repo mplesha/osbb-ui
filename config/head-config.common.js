@@ -13,6 +13,9 @@
  * Will not prefix the publicPath on href (href attributes are added by default
  *
  */
+ 
+const baseUrl = process.env.BASE_URL || '/';
+
 module.exports = {
   link: [
 
@@ -20,8 +23,8 @@ module.exports = {
     /** <link> tags for favicons **/
 
     /** <link> tags for a Web App Manifest **/
-    { rel: 'manifest', href: '/assets/manifest.json' },
-    { rel: 'stylesheet', href: '/assets/font-awesome/css/font-awesome.min.css' },
+    { rel: 'manifest', href: `${baseUrl}assets/manifest.json` },
+    { rel: 'stylesheet', href: `${baseUrl}assets/font-awesome/css/font-awesome.min.css` },
   ],
   meta: [
     { name: 'msapplication-TileColor', content: '#00bcd4' },

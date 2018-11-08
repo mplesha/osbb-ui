@@ -26,7 +26,7 @@ import { ToasterModule, ToasterService } from 'angular2-toaster';
     RouterModule.forChild(routesCabinet),
     TranslateModule.forRoot({
         provide: TranslateLoader,
-        useFactory: (http: Http) => new TranslateStaticLoader(http, 'assets/i18n', '.json'),
+        useFactory: (http: Http) => new TranslateStaticLoader(http, '/assets/i18n', '.json'),
         deps: [Http]
     }),
   ],

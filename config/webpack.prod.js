@@ -58,7 +58,8 @@ module.exports = function (env) {
        *
        * See: http://webpack.github.io/docs/configuration.html#output-path
        */
-      path: helpers.root(process.env.BUILD_PATH || '../resources/public'),
+      path: helpers.root('dist'),
+
       /**
        * Specifies the name of each output file on disk.
        * IMPORTANT: You must not specify an absolute path here!

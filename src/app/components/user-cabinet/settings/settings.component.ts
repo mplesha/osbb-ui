@@ -1,6 +1,6 @@
 import { Component, OnInit, Input } from '@angular/core';
 
-import { Settings }     from './Settings';
+import { Settings }     from './settings';
 import { User }         from '../../../models/user.model';
 
 import { SettingsService } from './settings.service';
