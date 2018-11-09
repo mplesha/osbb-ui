@@ -158,6 +158,7 @@ module.exports = function (env) {
         'ENV': JSON.stringify(METADATA.ENV),
         'HMR': METADATA.HMR,
         'API_SERVER': JSON.stringify(process.env.API_SERVER || '/myosbb'),
+        'BASE_URL': JSON.stringify(process.env.BASE_URL || '/'),
         'process.env': {
           'ENV': JSON.stringify(METADATA.ENV),
           'NODE_ENV': JSON.stringify(METADATA.ENV),
